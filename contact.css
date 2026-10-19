@@ -1,0 +1,115 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #f5f5f5aa;
+}
+.header{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+.nav-con{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    border-bottom: 3px solid red;
+    padding: 5px;
+    margin-top: -16px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.nav-con img{
+    width: 70px;
+    border-radius: 10px;
+}
+.nav-con ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+    margin-top: 16px;
+}
+.nav-con ul a{
+    color: rgb(213, 207, 207);
+    text-decoration: none;
+}
+.nav-con div{
+    display: flex;
+    gap: 20px;
+}
+.order{
+    background-color: rgb(235, 147, 7);
+    border: none;
+    padding: 7px 18px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.add-cart{
+    background-color: red;
+    border: none;
+    padding: 7px 18px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.add-cart:hover{
+    color: black;
+}
+.add-cart i{
+    color: lightgray;
+    font-size: 18px;
+}
+.add-cart span{
+    padding: 2px 7px;
+    background-color: rgb(235, 147, 7);
+    border-radius: 50%;
+}
+.trust-div p{
+    color: red;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+}
+.trust-div{
+    margin: 80px 50px 50px 50px;
+
+}
+.trust-div h1{
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -10px;
+}
+.contact-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 76%;
+    margin: 0px auto;
+    gap: 70px;
+}
+.contact-left{
+    height: 500px;
+    width: 100%;
+}
+.contact-right{
+    height: 500px;
+    width: 100%;
+    padding: 30px;
+}
+.btn1{
+    background-color: rgb(79, 226, 79);
+    width: 40%;
+    transition: 0.5s ease;
+}
+.btn1:hover{
+    background-color: rgb(88, 231, 88);
+    box-shadow: 2px 2px 3px rgb(88, 231, 88);
+    transform: translateY(-2px);
+}
